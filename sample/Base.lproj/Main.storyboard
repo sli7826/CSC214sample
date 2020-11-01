@@ -67,13 +67,74 @@
                     <view key="view" contentMode="scaleToFill" id="PFz-B9-Wfb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="jVe-xu-dV7">
+                                <rect key="frame" x="106" y="387" width="202" height="34"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QRv-R5-b7v">
+                                        <rect key="frame" x="0.0" y="0.0" width="55" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="enter score here" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cIJ-YO-niL">
+                                        <rect key="frame" x="68" y="0.0" width="134" height="34"/>
+                                        <color key="textColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="Rvs-SN-eMO">
+                                <rect key="frame" x="105.5" y="339" width="203.5" height="34"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ujb-aC-scD">
+                                        <rect key="frame" x="0.0" y="0.0" width="55.5" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="enter name here" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="reH-wt-LK9">
+                                        <rect key="frame" x="69.5" y="0.0" width="134" height="34"/>
+                                        <color key="textColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="49" translatesAutoresizingMaskIntoConstraints="NO" id="C5N-Nz-Xom">
+                                <rect key="frame" x="137.5" y="456" width="139" height="33"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45m-Um-xoS">
+                                        <rect key="frame" x="0.0" y="0.0" width="53" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLf-ZE-f9Y">
+                                        <rect key="frame" x="102" y="0.0" width="37" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Save"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="jVe-xu-dV7" firstAttribute="centerX" secondItem="u6I-jl-0Yy" secondAttribute="centerX" id="4h5-BU-bL2"/>
+                            <constraint firstItem="C5N-Nz-Xom" firstAttribute="centerX" secondItem="u6I-jl-0Yy" secondAttribute="centerX" id="95L-vL-cRP"/>
+                            <constraint firstItem="C5N-Nz-Xom" firstAttribute="top" secondItem="jVe-xu-dV7" secondAttribute="bottom" constant="35" id="AGM-Eb-bTF"/>
+                            <constraint firstItem="jVe-xu-dV7" firstAttribute="top" secondItem="Rvs-SN-eMO" secondAttribute="bottom" constant="14" id="Awd-Wu-s7F"/>
+                            <constraint firstItem="jVe-xu-dV7" firstAttribute="centerY" secondItem="u6I-jl-0Yy" secondAttribute="centerY" id="HxX-2j-ea8"/>
+                            <constraint firstItem="Rvs-SN-eMO" firstAttribute="centerX" secondItem="u6I-jl-0Yy" secondAttribute="centerX" id="k6P-6O-0uf"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="u6I-jl-0Yy"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o36-mY-ZJW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1682" y="192"/>
+            <point key="canvasLocation" x="1681.1594202898552" y="191.51785714285714"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0D4-HR-S6V">
