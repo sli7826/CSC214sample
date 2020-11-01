@@ -13,6 +13,7 @@
 		329DEACD254CF50E00E92301 /* sample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 329DEACB254CF50E00E92301 /* sample.xcdatamodeld */; };
 		329DEACF254CF51000E92301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329DEACE254CF51000E92301 /* Assets.xcassets */; };
 		329DEAD2254CF51000E92301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329DEAD0254CF51000E92301 /* LaunchScreen.storyboard */; };
+		82ABF3F2254E57930096ECF4 /* VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ABF3F1254E57920096ECF4 /* VC.swift */; };
 		842AB70C254E3E4700A0A4B0 /* Leaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842AB70B254E3E4700A0A4B0 /* Leaderboard.swift */; };
 		842AB70E254E41ED00A0A4B0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842AB70D254E41ED00A0A4B0 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		329DEACE254CF51000E92301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		329DEAD1254CF51000E92301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		329DEAD3254CF51000E92301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82ABF3F1254E57920096ECF4 /* VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC.swift; sourceTree = "<group>"; };
 		842AB70B254E3E4700A0A4B0 /* Leaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaderboard.swift; sourceTree = "<group>"; };
 		842AB70D254E41ED00A0A4B0 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +64,7 @@
 			children = (
 				842AB708254E3E1600A0A4B0 /* Model */,
 				329DEAC2254CF50E00E92301 /* AppDelegate.swift */,
+				82ABF3F1254E57920096ECF4 /* VC.swift */,
 				329DEAC4254CF50E00E92301 /* SceneDelegate.swift */,
 				329DEAC8254CF50E00E92301 /* Main.storyboard */,
 				329DEACE254CF51000E92301 /* Assets.xcassets */,
@@ -154,6 +157,7 @@
 			files = (
 				329DEACD254CF50E00E92301 /* sample.xcdatamodeld in Sources */,
 				329DEAC3254CF50E00E92301 /* AppDelegate.swift in Sources */,
+				82ABF3F2254E57930096ECF4 /* VC.swift in Sources */,
 				329DEAC5254CF50E00E92301 /* SceneDelegate.swift in Sources */,
 				842AB70E254E41ED00A0A4B0 /* TableViewController.swift in Sources */,
 				842AB70C254E3E4700A0A4B0 /* Leaderboard.swift in Sources */,
